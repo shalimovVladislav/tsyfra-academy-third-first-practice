@@ -1,1 +1,1 @@
-# tsyfra-academy-third-first-practice
+# tsyfra-academy-first-practice
