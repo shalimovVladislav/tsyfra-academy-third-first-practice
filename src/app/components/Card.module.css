@@ -1,0 +1,36 @@
+.card {
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .content {
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #2b6cb0;
+  }
+  
