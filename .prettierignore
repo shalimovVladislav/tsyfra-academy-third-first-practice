@@ -1,9 +1,0 @@
-node_modules
-dist
-.next
-.husky/_/*
-!/.husky/_/husky.sh
-.env
-build
-.cache
-public

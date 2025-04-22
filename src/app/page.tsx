@@ -1,5 +1,20 @@
-import styles from '@/styles/Home.module.css';
+'use client';
+import React from 'react';
+import { Button } from '@/app/components/Button';
+import { Card } from "@/app/components/Card";
 
 export default function Home() {
-  return <h1 className={styles.title}>Привет, CSS Modules!</h1>;
+  return (
+    <main>
+      <Button size="small" onClick={() => alert('Кнопка нажата!')}>
+        Кнопка Panda CSS
+      </Button>
+      <Card
+        title="Компонент Card (title, content, Button)"
+        content="Это карточка на CSS Modules"
+        onClick={() => alert("Кнопка нажата!")}
+        buttonText="Нажми меня"
+      />
+    </main>
+  )
 }
